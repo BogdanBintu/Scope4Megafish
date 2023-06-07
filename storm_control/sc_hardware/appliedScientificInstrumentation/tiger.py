@@ -55,13 +55,18 @@ class Tiger(RS232.RS232):
         # This also turns off the stage motors to disable position
         # feedback control during movies.
         if on:
-            self.commWithResp("J X+ Y+")
-            self.commWithResp("MC X+ Y+ Z+")
-            
+            try:
+                self.commWithResp("J X+ Y+")
+                self.commWithResp("MC X+ Y+ Z+")
+            except:
+                print("Failed communication...")
 
         else:
-            self.commWithResp("J X- Y-")
-            self.commWithResp("MC X- Y- Z-")
+            try:
+                self.commWithResp("J X- Y-")
+                self.commWithResp("MC X- Y- Z-")
+            except:
+                print("Failed communication...")
 
     def position(self):
         try:

@@ -148,8 +148,12 @@ class Camera(Handle):
         """
         self.startCapture()
         frame=None
-        if self.camera.is_armed and not self.disposed:
-            frame = self.camera.get_pending_frame_or_null()
+        
+        try:
+            if self.camera.is_armed and not self.disposed:
+                frame = self.camera.get_pending_frame_or_null()
+        except:
+            print("Failed at most important step?")
         if frame is not None:
             self.data = numpy.copy(frame.image_buffer)
             self.data = numpy.clip(self.data,0,255).astype(numpy.uint8)

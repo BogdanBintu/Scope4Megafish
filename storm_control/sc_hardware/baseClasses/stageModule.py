@@ -290,13 +290,19 @@ class StageModule(hardwareModule.HardwareModule):
                 tcp_move_handler = TCPMoveHandler(hal_message = message,
                                                   stage_functionality = self.stage_functionality,
                                                   watchdog_timeout = self.watchdog_timeout)
-                self.stage_functionality.isMoving.connect(tcp_move_handler.handleIsMoving)
+                try:
+                    self.stage_functionality.isMoving.connect(tcp_move_handler.handleIsMoving)
 
-                #
-                # Tell the stage to move.
-                #
-                self.stage_functionality.goAbsolute(tcp_message.getData("stage_x"),
-                                                    tcp_message.getData("stage_y"))
+                    #
+                    # Tell the stage to move.
+                    #
+                    self.stage_functionality.goAbsolute(tcp_message.getData("stage_x"),
+                                                        tcp_message.getData("stage_y"))
+                    zpos = tcp_message.getData("stage_z")
+                    if zpos>0:                
+                        self.z_piezo_functionality.goAbsolute(zpos)
+                except:
+                    print("Failed to send move command!")
                 #
                 # FIXME: After the move we need some way to gaurantee that the stage
                 #        reports it's current position, which is hopefully where it

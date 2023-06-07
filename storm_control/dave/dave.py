@@ -436,6 +436,10 @@ class Dave(QtWidgets.QMainWindow):
             next_command = self.ui.commandSequenceTreeView.getPreviousItem(index=2)
             currentDT = datetime.datetime.now()
             print(str(currentDT))
+            for fl in [fl_DAQ,fl_Stage]:
+                fid =  open(fl,'w')
+                fid.write('False')
+                fid.close()
         if not errorDAQ and not errorStage:
             next_command = self.ui.commandSequenceTreeView.getNextItem()
         

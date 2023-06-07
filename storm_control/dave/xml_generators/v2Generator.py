@@ -305,7 +305,14 @@ class XMLRecipeParser(QtWidgets.QWidget):
                     while True:
                         line = pos_fp.readline()
                         if not line: break
-                        [x, y] = line.split(",")
+                        #[x, y] = line.split(",")
+                        X = line.split(",")
+                        if len(X)==2: 
+                            x,y = X
+                            z = -1
+                        elif len(X)==3: 
+                            x,y,z = X
+                        print(x,y,z)
                         new_value = ElementTree.SubElement(new_loop_variable, "value")
                         new_value.text = "\n"
 
@@ -314,6 +321,9 @@ class XMLRecipeParser(QtWidgets.QWidget):
 
                         y_child = ElementTree.SubElement(new_value, "stage_y")
                         y_child.text = y
+                        
+                        z_child = ElementTree.SubElement(new_value, "stage_z")
+                        z_child.text = z
 
                 loop_variables = loop_variable_xml.getroot()
 

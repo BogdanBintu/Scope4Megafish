@@ -888,10 +888,12 @@ class DAMoveStage(DaveAction):
     def createETree(self, dictionary):
         stage_x = dictionary.get("stage_x")
         stage_y = dictionary.get("stage_y")
+        stage_z = dictionary.get("stage_z",-1.0)
         if (stage_x is not None) and (stage_y is not None):
             block = ElementTree.Element(str(type(self).__name__))
             addField(block, "stage_x", stage_x)
             addField(block, "stage_y", stage_y)
+            addField(block, "stage_z", stage_z)
             return block
 
     ## getDescriptor
@@ -899,7 +901,8 @@ class DAMoveStage(DaveAction):
     # @return A string that describes the action.
     #
     def getDescriptor(self):
-        return "move stage to " + str(self.stage_x) + ", " + str(self.stage_y)
+        #return "move stage to " + str(self.stage_x) + ", " + str(self.stage_y)
+        return "move stage to " + str(self.stage_x) + ", " + str(self.stage_y) + ", " + str(self.stage_z)
 
     ## setup
     #
@@ -910,14 +913,17 @@ class DAMoveStage(DaveAction):
     def setup(self, node):
         self.stage_x = float(node.find("stage_x").text)
         self.stage_y = float(node.find("stage_y").text)
+        self.stage_z = float(node.find("stage_z").text)
         self.message = tcpMessage.TCPMessage(message_type = "Move Stage",
                                              message_data = {"stage_x" : self.stage_x,
-                                                             "stage_y" : self.stage_y})
+                                                             "stage_y" : self.stage_y,
+                                                             "stage_z" : self.stage_z})
 
         # Create id to indicate required validation
         self.id = self.message.getType() + " "
         self.id += "stage_x: " + str(self.stage_x) + " "
-        self.id += "stage_y: " + str(self.stage_y)
+        self.id += "stage_y: " + str(self.stage_y) + " "
+        self.id += "stage_z: " + str(self.stage_z)
 
 ## DAPause
 #

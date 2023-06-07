@@ -978,7 +978,8 @@ class HardwareZScanLockMode(AlwaysOnLockMode):
         returns the waveform to use during filming as a daqModule.DaqWaveform,
         or None if there is no waveform or one shouldn't be used.
         """
-        if self.amLocked() and isinstance(self.hzs_zvals, numpy.ndarray):
+        #if self.amLocked() and isinstance(self.hzs_zvals, numpy.ndarray):
+        if isinstance(self.hzs_zvals, numpy.ndarray):
             waveform = self.hzs_zvals + LockMode.z_stage_functionality.getCurrentPosition()
             return LockMode.z_stage_functionality.getDaqWaveform(waveform)
 
@@ -1016,7 +1017,10 @@ class HardwareZScanLockMode(AlwaysOnLockMode):
         return True
     
     def startFilm(self):
-        if self.amLocked() and self.hzs_zvals is not None:
+        #if self.amLocked() and self.hzs_zvals is not None:
+        if self.amLocked(): self.relock=True
+        else: self.relock=False
+        if self.hzs_zvals is not None:
             self.behavior = "none"
             self.hzs_film_off = True
 
@@ -1024,6 +1028,8 @@ class HardwareZScanLockMode(AlwaysOnLockMode):
         if self.hzs_film_off:
             self.hzs_film_off = False
             self.behavior = "locked"
+            if getattr(self,"relock",False): self.behavior = "locked"
+            else: self.behavior = "none"
 
 
 class DiagnosticsLockMode(NoLockMode):
