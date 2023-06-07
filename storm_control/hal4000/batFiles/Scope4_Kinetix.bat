@@ -1,0 +1,1 @@
+cmd /k "C:\Users\Scope4\anaconda3\Scripts\activate base && python "C:\Scope4Megafish\storm_control\hal4000\hal4000.py" "C:\Scope4Megafish\MEGAFISH-configs\megafish_hcam_celesta_tiger_config_kinetix_noneIR2.xml""
