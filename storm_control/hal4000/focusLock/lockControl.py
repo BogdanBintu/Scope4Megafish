@@ -360,21 +360,56 @@ class LockControl(QtCore.QObject):
             if self.offset_fp is not None:
                 self.offset_fp.close()
                 self.offset_fp = None
-             ### test if stage failed BBEdit
+                ### test if stage failed BBEdit
                 lines = [ln for ln in open(self.offset_file, "r") if len(ln)>1]
                 last_stage = float(lines[-1].split(' ')[-2])
                 fl_Stage = r'D:\Data\errorStage.txt'
-                if last_stage<20:
-                    ###stage failed flag as error for dave to repeat the imaging
-                    print("BadStage")
-                    fid = open(fl_Stage,'w')
-                    fid.write('True')
-                    fid.close()
-                else:
-                    print("GoodStage")
-                    fid = open(fl_Stage,'w')
-                    fid.write('False')
-                    fid.close()
+                try:
+                    ### read first frame and check if "blank"
+                    from dask import array as da
+                    import os
+                    import numpy as np
+                    path = self.offset_file
+                    
+                    dirname = os.path.dirname(path)
+                    fov = os.path.basename(path).split('_')[-1].split('.')[0]
+                    file_ = dirname+os.sep+fov+os.sep+'data'
+                    zarr_path = path.replace('.off','.zarr')
+                    #image = zarr.load(file_)[1:]
+                    try:
+                        image = da.from_zarr(file_)[1:]
+                    except:
+                        image = da.from_zarr(zarr_path)
+                    #image.dtype
+                    
+                    import numpy as np
+                    def read_ir_power(fl,nfrm=10):
+                        fl_ = fl.replace('.zarr','.off')
+                        sig = np.array([ln[:-1].split(' ') for ln in open(fl_,'r')][1:],dtype=float)[:,2]
+                        return np.all(np.abs(np.diff(sig))[-nfrm:]==0)
+                    frame_stuck = read_ir_power(self.offset_file,nfrm=10)
+                    
+                    if str(image.dtype)=='uint8':
+                        image = image.astype(np.uint16)**2
+                    thh = 75
+                    is_bad = (np.median(np.array(image[0]))<thh)or(np.median(np.array(image[1]))<thh)or(np.median(np.array(image[2]))<thh)or(np.median(np.array(image[3]))<thh)or(np.median(np.array(image[4]))<thh)
+                    if is_bad:
+                        redo_frame=True
+                    else:
+                        redo_frame=False
+                    if (last_stage<20) or redo_frame or frame_stuck:
+                        ###stage failed flag as error for dave to repeat the imaging
+                        print("BadStage")
+                        fid = open(fl_Stage,'w')
+                        fid.write('True')
+                        fid.close()
+                    else:
+                        print("GoodStage")
+                        fid = open(fl_Stage,'w')
+                        fid.write('False')
+                        fid.close()
+                except:
+                    print("Ignore")
             if self.tiff_fp is not None:
                 self.tiff_counter = None
                 self.tiff_fp.close()

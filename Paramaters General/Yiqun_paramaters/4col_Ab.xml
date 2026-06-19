@@ -54,7 +54,7 @@
       <step_size type="float">1.0</step_size>
     </find_sum>
     <hardware_z_scan validate="True">
-      <z_offsets type="string">0:-150:-0.5:4</z_offsets>
+      <z_offsets type="string">0:-220:-0.5:4</z_offsets>
     </hardware_z_scan>
     <jump_size type="float">0.2</jump_size>
     <locked validate="True">

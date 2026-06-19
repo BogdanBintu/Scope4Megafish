@@ -32,7 +32,7 @@ class Tiger(RS232.RS232):
             super().__init__(**kwds)
             assert not (self.commWithResp("WHO") == None)
             self.joystickOnOff(True)#BB edit
-
+            self.commWithResp("4PZ Z=3")
         except (AttributeError, AssertionError):
             print(traceback.format_exc())
             self.live = False
@@ -94,7 +94,7 @@ class Tiger(RS232.RS232):
 
     def zConfigurePiezo(self, axis, mode):
         self.commWithResp("PM " + str(axis) + "=" + str(mode))
-        
+        self.commWithResp("4PZ Z=3")
     def zMoveTo(self, z):
         """
         Move the z stage to the specified position (in microns).

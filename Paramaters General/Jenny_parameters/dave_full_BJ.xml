@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+      <change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H1</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+        
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 2</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H2</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 3</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H3</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 4</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H4</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 5</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H5</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 6</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H6</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 7</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H7</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 8</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H8</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 9</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H9</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 10</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H10</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 11</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H11</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 12</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H12</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 13</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H13</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 14</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H14</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 15</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H15</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 16</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H16</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+		<valve_protocol>TCEP</valve_protocol>
+		<valve_protocol>Hybridize 17</valve_protocol>
+		<change_directory>E:\Blair\07282023_dm6WG_TCEP_exp1\H17</change_directory>
+		<loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+
+
+
+
+</command_sequence>
+
+<item name = "Conv1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>200</length>
+    <parameters>60X_4col</parameters>
+
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+
+
+
+
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path></file_path>
+</loop_variable>
+
+
+    </recipe>

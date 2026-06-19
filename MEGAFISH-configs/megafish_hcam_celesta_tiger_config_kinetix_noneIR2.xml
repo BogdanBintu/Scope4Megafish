@@ -77,7 +77,7 @@
                 <flip_vertical desc="Flip image vertical (mosaic)" type="boolean">True</flip_vertical>
                 <transpose desc="Transpose image (mosaic)" type="boolean">True</transpose>
                 <objective desc="Current objective" type="string" values="obj1,obj2">obj1</objective>
-                <obj1 desc="Objective 1" type="custom">40x,0.16,0.0,0.0</obj1>
+                <obj1 desc="Objective 1" type="custom">60x,0.11,0.0,0.0</obj1>
                 <obj2 desc="Objective 2" type="custom">10x,0.65,-210.00,28.00</obj2>
             </parameters>
         </mosaic>
@@ -287,7 +287,7 @@
 	<ttl_mode type="int">22</ttl_mode>	
 	<devices>
 	  <xy_stage>
-	    <velocity type="float">7.5</velocity>
+	    <velocity type="float">1.0</velocity>
 	  </xy_stage>
 	  <z_piezo>
 	    <parameters>
@@ -485,7 +485,7 @@
                 <z_stage type="string">tiger_controller.z_piezo</z_stage>
                 <parameters>
                     <find_sum>
-                        <step_size type="float">1.0</step_size>
+                        <step_size type="float">0.025</step_size>
                     </find_sum>
                     <locked>
                         <buffer_length type="int">5</buffer_length>
@@ -493,7 +493,7 @@
                     </locked>
                     <scan> <!-- from MF6 -->
                         <!--minimum_sum type="float">7000</minimum_sum-->
-                        <scan_step type="float">0.05</scan_step>
+                        <scan_step type="float">0.001</scan_step>
                         <offset_threshold type="float">500</offset_threshold>
                     </scan>
                     <jump_size type="float">0.5</jump_size>

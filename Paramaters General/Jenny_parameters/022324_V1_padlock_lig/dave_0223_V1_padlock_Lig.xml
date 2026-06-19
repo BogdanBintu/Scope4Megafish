@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+  	<valve_protocol>Strip35%Formamide</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After35%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after35%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>  
+	  
+	  
+  	<valve_protocol>Strip40%Formamide</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After40%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after40%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	  
+  	<valve_protocol>Strip45%Formamide</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After45%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after45%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	  
+	<valve_protocol>Strip50%Formamide</valve_protocol>
+
+	<wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After50%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after50%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+	  
+  	<valve_protocol>Strip60%Formamide</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After60%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after60%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	  
+  	<valve_protocol>Strip70%Formamide</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After70%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after70%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+	  
+  	<valve_protocol>StripFormamide</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\BG_After80%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	  
+	<valve_protocol>Hybridize 2</valve_protocol>
+	
+    <wakeup>20000</wakeup>
+   <change_directory>E:\Jenny\022324_V1_padlock_Lig\Hyb_after80%</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+	<valve_protocol>StripFormamide</valve_protocol>
+
+
+	  
+</command_sequence>
+
+<item name = "Conv1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>60X_4col</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path></file_path>
+</loop_variable>
+ 
+
+</recipe>

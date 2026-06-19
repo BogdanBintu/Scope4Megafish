@@ -216,7 +216,7 @@ class StageModule(hardwareModule.HardwareModule):
         # does not respond that the move has completed in this time then we
         # are just going to assume that we missed something.
         #
-        self.watchdog_timeout = 10000
+        self.watchdog_timeout = 75000### Changed because we reduced the xy speed 7.5 times
 
     def cleanUp(self, qt_settings):
         if self.stage is not None:

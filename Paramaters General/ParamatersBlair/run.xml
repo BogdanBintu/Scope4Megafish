@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <DALightEngineWakeup>
+    <wakeup type="str">10000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T0</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T1</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T2</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T3</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T4</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T5</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T6</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T7</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T8</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T9</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T10</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T11</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T12</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T13</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T14</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T15</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T16</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DALightEngineWakeup>
+    <wakeup type="str">600000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">H:\Blair\7_10_2023_T17</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-6602.77</stage_x>
+        <stage_y type="float">2044.73</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-14547.39</stage_x>
+        <stage_y type="float">3940.36</stage_y>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">live_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">90</length>
+        <parameters type="str">live_647</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+
+	<valve_protocol>Hybridize 2</valve_protocol>
+	   <change_directory>E:\Jenny\030524_V1_acry_37C\H1_P1A1_2_3</change_directory> 
+		  <loop name = "Position Loop Zscan1" increment = "name"><item name = "ConvDNA1"></item></loop>
+
+	<valve_protocol>StripFormamide</valve_protocol>
+	
+	<valve_protocol>Hybridize 2</valve_protocol>
+	   <change_directory>E:\Jenny\030524_V1_acry_37C\H2_P1A1_2_3</change_directory> 
+		  <loop name = "Position Loop Zscan1" increment = "name"><item name = "ConvDNA1"></item></loop>
+
+	<valve_protocol>StripFormamide</valve_protocol>
+	
+	<valve_protocol>Hybridize 3</valve_protocol>
+	   <change_directory>E:\Jenny\030524_V1_acry_37C\H3_P3F4_5_6</change_directory> 
+		  <loop name = "Position Loop Zscan1" increment = "name"><item name = "ConvDNA1"></item></loop>
+
+	<valve_protocol>StripFormamide</valve_protocol>
+	
+	<valve_protocol>Hybridize 3</valve_protocol>
+	   <change_directory>E:\Jenny\030524_V1_acry_37C\H4_P3F4_5_6</change_directory> 
+		  <loop name = "Position Loop Zscan1" increment = "name"><item name = "ConvDNA1"></item></loop>
+
+	<valve_protocol>StripFormamide</valve_protocol>
+	
+
+	<valve_protocol>Hybridize 4</valve_protocol>
+	   <change_directory>E:\Jenny\030524_V1_acry_37C\H5_P3F1_2_3</change_directory> 
+		  <loop name = "Position Loop Zscan1" increment = "name"><item name = "ConvDNA1"></item></loop>
+	<valve_protocol>StripFormamide</valve_protocol>
+
+			
+	  
+</command_sequence>
+
+<item name = "ConvDNA1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>180</length>
+    <parameters>60X_4col</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+
+
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path></file_path>
+</loop_variable>
+</recipe>

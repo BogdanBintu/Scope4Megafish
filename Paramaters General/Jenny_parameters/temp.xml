@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <DASetDirectory>
+    <directory type="str">F:\BrettJenny\P4CC3_EGFR_smFISH_2_28_2025\H_GFP</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">16396.83</stage_x>
+        <stage_y type="float">-1619.0</stage_y>
+        <stage_z type="float">255.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_2color</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">180</length>
+        <parameters type="str">60X_2color</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">19848.8</stage_x>
+        <stage_y type="float">-1440.7</stage_y>
+        <stage_z type="float">250.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_2color</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">180</length>
+        <parameters type="str">60X_2color</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">22706.26</stage_x>
+        <stage_y type="float">-1189.66</stage_y>
+        <stage_z type="float">240.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_2color</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">180</length>
+        <parameters type="str">60X_2color</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DADelay>
+    <delay type="str">2000</delay>
+  </DADelay>
+  <DACopyFolders>
+    <source_path type="str">F:\BrettJenny\P4CC3_EGFR_smFISH_2_28_2025\H_GFP</source_path>
+    <target_path type="str">I:\BrettJenny\P4CC3_EGFR_smFISH_2_28_2025\H_GFP</target_path>
+    <delete_source type="bool">True</delete_source>
+  </DACopyFolders>
+</sequence>

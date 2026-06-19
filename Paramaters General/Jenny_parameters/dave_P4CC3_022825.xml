@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+
+
+<change_directory>F:\BrettJenny\P4CC3_EGFR_smFISH_2_28_2025\H_GFP</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+
+<delay>2000</delay>
+      <copy_directory>
+        <source_path>F:\BrettJenny\P4CC3_EGFR_smFISH_2_28_2025\H_GFP</source_path>
+        <target_path>I:\BrettJenny\P4CC3_EGFR_smFISH_2_28_2025\H_GFP</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>        
+       
+
+    
+
+       
+
+   
+    
+</command_sequence>
+
+<item name = "ConvDNA1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>180</length>
+    <parameters>60X_2color</parameters>
+<!--<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>!-->
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+
+
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path></file_path>
+</loop_variable>
+</recipe>

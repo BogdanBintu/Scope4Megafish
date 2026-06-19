@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+    <!-- Initial command to start the process after 10 seconds -->
+    <wakeup>10000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T0</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <!-- 18 iterations for each 10 minutes within 3 hours (10 minutes = 600000 milliseconds) -->
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T1</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+    
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T2</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+    
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T3</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T4</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T5</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T6</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T7</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T8</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T9</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T10</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T11</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T12</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T13</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T14</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T15</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T16</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T17</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+	
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T18</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T19</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T20</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T21</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T22</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T23</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T24</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T25</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T26</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T27</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T28</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+    <wakeup>600000</wakeup>
+    <change_directory>G:\Blair\7_16_2023_T29</change_directory> 
+    <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+
+</command_sequence>
+
+<item name = "Conv1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>90</length>
+    <parameters>live_647</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+
+
+
+
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path></file_path>
+</loop_variable>
+
+
+   </recipe>

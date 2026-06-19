@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\FirstHyb</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Strip50%Formamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After50%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Hybridize 6_20min</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\Hyb_after50%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Strip35%Formamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After35%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Strip40%Formamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After40%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Strip45%Formamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After45%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Strip60%Formamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After60%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Hybridize 6_20min</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\Hyb_after60%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Strip70%Formamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After70%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Hybridize 6_20min</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\Hyb_after70%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>StripFormamide</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\BG_After80%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Hybridize 6_20min</DAValveProtocol>
+  <DALightEngineWakeup>
+    <wakeup type="str">20000</wakeup>
+  </DALightEngineWakeup>
+  <DASetDirectory>
+    <directory type="str">E:\Mahsa\20240221_MN_PadlockProbe_Phos_No Fixation\Hyb_after80%</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">4041.6</stage_x>
+        <stage_y type="float">6001.1</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DACheckFocus>
+        <num_focus_checks>20</num_focus_checks>
+        <focus_scan/>
+      </DACheckFocus>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">120</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

@@ -298,11 +298,14 @@ class Window(QtWidgets.QMainWindow):
         if len(layers)>0:
             im_msk = []
             layer = layers[-1]
-            
             for layer in layers:
                 if 'shape' in str(type(layer)):
                     im_msk_ = np.sum(layer.to_masks(),axis=0)>0
                     im_msk.append(im_msk_)
+            #elif 'image' in str(type(layer)):
+            #    im_msk = layer.data>0
+            #elif 'labels' in str(type(layer)):
+            #    im_msk = layer.data>0
                 
                 
         ##TSP
@@ -422,7 +425,7 @@ class Window(QtWidgets.QMainWindow):
                 c_min,c_max = in_dim(c-block_,dim),in_dim(c+block-block_,dim)
                 slices.append(slice(c_min,c_max))
             slices.append(Ellipsis)
-            return im[slices]
+            return im[tuple(slices)]
         def get_positions(image,pos_ims,low_mag_pixel_size=0.108333*6,high_mag_pixel_size = 0.108333,
                           fov_sz = [3200,3200],
                           perc_overlap=0.95,
@@ -532,6 +535,14 @@ class Window(QtWidgets.QMainWindow):
             return np.round(x_keep,2),np.round(y_keep,2)
         if im_msk is not None:
             self.im_msk = im_msk
+            import pickle
+            if False:
+                pickle.dump([self.im_msk,np.array([self.x_ums,self.y_ums]).T,
+                              self.um_per_pixel,
+                              self.target_um_per_pixel,
+                              self.drift,
+                              self.fov_sz_low],open(r'D:\01_19_2024_BigHeart\test\masks.pkl','wb'))
+            #print(im_msk.shape)
             count_fl=0
             for im_msk_ in im_msk:
                 count_fl+=1

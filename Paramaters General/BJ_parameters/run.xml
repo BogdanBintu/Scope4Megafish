@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H1</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 2</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H2</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 3</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H3</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 4</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H4</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 5</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H5</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 6</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H6</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 7</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H7</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 8</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H8</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 9</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H9</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 10</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H10</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 11</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H11</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 12</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H12</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 13</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H13</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 14</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H14</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 15</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H15</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 16</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H16</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>TCEP</DAValveProtocol>
+  <DAValveProtocol>Hybridize 17</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">E:\Blair\07282023_dm6WG_TCEP_exp1\H17</directory>
+  </DASetDirectory>
+  <branch name="Position Loop Zscan1">
+    <branch name="Conv_zscan__0">
+      <DAMoveStage>
+        <stage_x type="float">-3731.92</stage_x>
+        <stage_y type="float">350.94</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__0</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__1">
+      <DAMoveStage>
+        <stage_x type="float">-2938.66</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__1</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__2">
+      <DAMoveStage>
+        <stage_x type="float">-1761.77</stage_x>
+        <stage_y type="float">263.91</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__2</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__3">
+      <DAMoveStage>
+        <stage_x type="float">-549.22</stage_x>
+        <stage_y type="float">213.98</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__3</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__4">
+      <DAMoveStage>
+        <stage_x type="float">513.55</stage_x>
+        <stage_y type="float">142.65</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__4</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+    <branch name="Conv_zscan__5">
+      <DAMoveStage>
+        <stage_x type="float">1483.59</stage_x>
+        <stage_y type="float">78.46</stage_y>
+        <stage_z type="float">-1.0</stage_z>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">60X_4col</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Conv_zscan__5</name>
+        <length type="int">200</length>
+        <parameters type="str">60X_4col</parameters>
+        <overwrite type="bool">True</overwrite>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

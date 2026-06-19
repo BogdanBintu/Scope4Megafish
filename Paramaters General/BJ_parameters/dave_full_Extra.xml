@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+              <valve_protocol>StripFormamide</valve_protocol>
+
+          
+       <change_directory>E:\Roy\HumanSVZMER_6_26_2023\Bleach</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Bleach1"></item></loop>
+        
+       
+
+
+            <valve_protocol>Hybridize 26</valve_protocol>
+            
+       <change_directory>E:\Roy\HumanSVZMER_6_26_2023\P1_PTBP1_OLIG1_GFAP_set1</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>E:\Roy\HumanSVZMER_6_26_2023\P1_PTBP1_OLIG1_GFAP_set1</source_path>
+        <target_path>V:\Roy\HumanSVZMER_6_26_2023\P1_PTBP1_OLIG1_GFAP_set1</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>  
+
+
+
+
+
+
+
+</command_sequence>
+<item name = "Bleach1">
+  <movie>
+    <name increment = "Yes">Bleach_</name>
+            <overwrite>True</overwrite>
+    <length>40</length>
+    <parameters>Bleach_2col</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+<item name = "Conv1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>4col_MER</parameters>
+
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+
+
+
+
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path>pos.txt</file_path>
+</loop_variable>
+
+
+    </recipe>

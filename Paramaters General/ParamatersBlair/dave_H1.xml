@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+<valve_protocol>StripFormamide</valve_protocol>
+    <valve_protocol>Hybridize 2</valve_protocol>
+    
+    
+    <wakeup>20000</wakeup>
+   <change_directory>D:\DCBBL1_12_06_2022\H1_MER_set1</change_directory> 
+      <loop name = "Position Loop Zscan1" increment = "name"><item name = "Conv1"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>D:\DCBBL1_12_06_2022\H1_MER_set1</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set1</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+
+    <wakeup>20000</wakeup>
+   <change_directory>H:\DCBBL1_12_06_2022\H1_MER_set2</change_directory> 
+      <loop name = "Position Loop Zscan2" increment = "name"><item name = "Conv2"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>H:\DCBBL1_12_06_2022\H1_MER_set2</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set2</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+<valve_protocol>Flow Image Buffer Short</valve_protocol>
+            
+    <wakeup>20000</wakeup>
+   <change_directory>D:\DCBBL1_12_06_2022\H1_MER_set3</change_directory> 
+      <loop name = "Position Loop Zscan3" increment = "name"><item name = "Conv3"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>D:\DCBBL1_12_06_2022\H1_MER_set3</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set3</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+
+    <wakeup>20000</wakeup>
+   <change_directory>H:\DCBBL1_12_06_2022\H1_MER_set4</change_directory> 
+      <loop name = "Position Loop Zscan4" increment = "name"><item name = "Conv4"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>H:\DCBBL1_12_06_2022\H1_MER_set4</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set4</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+<valve_protocol>Flow Image Buffer Short</valve_protocol>
+            
+    <wakeup>20000</wakeup>
+   <change_directory>D:\DCBBL1_12_06_2022\H1_MER_set5</change_directory> 
+      <loop name = "Position Loop Zscan5" increment = "name"><item name = "Conv5"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>D:\DCBBL1_12_06_2022\H1_MER_set5</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set5</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+
+    <wakeup>20000</wakeup>
+   <change_directory>H:\DCBBL1_12_06_2022\H1_MER_set6</change_directory> 
+      <loop name = "Position Loop Zscan6" increment = "name"><item name = "Conv6"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>H:\DCBBL1_12_06_2022\H1_MER_set6</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set6</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+<valve_protocol>Flow Image Buffer Short</valve_protocol>
+            
+    <wakeup>20000</wakeup>
+   <change_directory>D:\DCBBL1_12_06_2022\H1_MER_set7</change_directory> 
+      <loop name = "Position Loop Zscan7" increment = "name"><item name = "Conv7"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>D:\DCBBL1_12_06_2022\H1_MER_set7</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set7</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+
+    <wakeup>20000</wakeup>
+   <change_directory>H:\DCBBL1_12_06_2022\H1_MER_set8</change_directory> 
+      <loop name = "Position Loop Zscan8" increment = "name"><item name = "Conv8"></item></loop>
+        
+       
+
+    <delay>2000</delay>
+      <copy_directory>
+        <source_path>H:\DCBBL1_12_06_2022\H1_MER_set8</source_path>
+        <target_path>W:\DCBBL1_12_06_2022\H1_MER_set8</target_path>
+        <delete_source>True</delete_source>
+      </copy_directory>    
+</command_sequence><item name = "Conv1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item><item name = "Conv2">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan2"></variable_entry>
+  </movie>
+</item><item name = "Conv3">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan3"></variable_entry>
+  </movie>
+</item><item name = "Conv4">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan4"></variable_entry>
+  </movie>
+</item><item name = "Conv5">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan5"></variable_entry>
+  </movie>
+</item><item name = "Conv6">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan6"></variable_entry>
+  </movie>
+</item><item name = "Conv7">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan7"></variable_entry>
+  </movie>
+</item><item name = "Conv8">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>120</length>
+    <parameters>Kinetix-15Hz_750_647_561_405_15um_500nm</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan8"></variable_entry>
+  </movie>
+</item>
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path>pos_1.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan2">
+   <file_path>pos_2.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan3">
+   <file_path>pos_3.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan4">
+   <file_path>pos_4.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan5">
+   <file_path>pos_5.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan6">
+   <file_path>pos_6.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan7">
+   <file_path>pos_7.txt</file_path>
+</loop_variable>
+    <loop_variable name = "Position Loop Zscan8">
+   <file_path>pos_8.txt</file_path>
+</loop_variable></recipe>

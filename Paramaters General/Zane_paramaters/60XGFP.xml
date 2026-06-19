@@ -40,7 +40,7 @@
     <extension type="string"/>
     <filename type="string">movie</filename>
     <filetype type="string">.zarr</filetype>
-    <frames type="int">160</frames>
+    <frames type="int">200</frames>
     <want_bell type="boolean">True</want_bell>
   </film>
   <focuslock validate="True">
@@ -54,7 +54,7 @@
       <step_size type="float">1.0</step_size>
     </find_sum>
     <hardware_z_scan validate="True">
-      <z_offsets type="string">0:-15:-0.2:4</z_offsets>
+      <z_offsets type="string">0:-15:-0.3:4</z_offsets>
     </hardware_z_scan>
     <jump_size type="float">0.2</jump_size>
     <locked validate="True">
@@ -81,7 +81,7 @@
     <default_power type="custom">1.000,0.296,0.571,0.024,0.016</default_power>
     <on_off_state type="custom">False,False,False,False,False</on_off_state>
     <power_buttons type="custom">[[['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]]]</power_buttons>
-    <shutters type="string">750_647_488_405_shutter.xml</shutters>
+    <shutters type="string">750_647_561_405_shutter.xml</shutters>
   </illumination>
   <mosaic validate="False">
     <flip_horizontal type="boolean">True</flip_horizontal>

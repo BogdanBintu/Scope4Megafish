@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+<valve_protocol>Hybridize 2 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H28_P1_G10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 3 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H29_P1_H1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 4 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H30_P1_H4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 5 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H31_P1_H7_8_9</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 6 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H32_P1_H10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 7 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H33_P2_A1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 8 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H34_P2_A4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 9 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H35_P2_A7_8_9</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 10 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H36_P2_A10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 11 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H37_P2_B1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 12 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H38_P2_B4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 13 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H39_P2_B7_8_9</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 14 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H40_P2_B10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 15 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H41_P2_C1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 16 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H42_P2_C4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 17 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H43_P2_C7_8_9</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 18 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H44_P2_C10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 19 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H45_P2_D1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 20 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H46_P2_D4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 21 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H47_P2_D7_8_9</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 22 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H48_P2_D10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 23 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H49_P2_E1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 24 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H50_P2_E4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 25 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H51_P2_E7_8_9</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 26 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H52_P2_E10_11_12</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 27 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H53_P2_F1_2_3</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+<valve_protocol>Hybridize 28 thick_gel</valve_protocol>
+<change_directory>F:\Jenny\031524_v1_acry_37C_pilot\H54_P2_F4_5_6</change_directory>
+<loop name="Position Loop Zscan1" increment="name"><item name="ConvDNA1"></item></loop>
+<valve_protocol>StripFormamide</valve_protocol>
+
+
+
+
+
+	
+			
+	  
+</command_sequence>
+
+<item name = "ConvDNA1">
+  <movie>
+    <name increment = "Yes">Conv_zscan_</name>
+            <overwrite>True</overwrite>
+    <length>180</length>
+    <parameters>60X_4col</parameters>
+<check_focus><num_focus_checks>20</num_focus_checks><focus_scan/></check_focus>
+    <variable_entry name = "Position Loop Zscan1"></variable_entry>
+  </movie>
+</item>
+
+
+    <loop_variable name = "Position Loop Zscan1">
+   <file_path></file_path>
+</loop_variable>
+</recipe>
